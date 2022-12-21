@@ -31,3 +31,10 @@ hs_err_pid*
 .project
 .classpath
 >>>>>>> Stashed changes
+.idea/workspace.xml
+.idea/vcs.xml
+.idea/modules.xml
+.idea/misc.xml
+.idea/Java_Studys_Content.iml
+.idea/inspectionProfiles/Project_Default.xml
+.idea/inspectionProfiles/profiles_settings.xml
