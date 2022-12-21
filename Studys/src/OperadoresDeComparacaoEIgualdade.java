@@ -1,3 +1,5 @@
+package Studys.src;
+
 public class OperadoresDeComparacaoEIgualdade {
 
 	public static void main(String[] args) {

@@ -1,3 +1,5 @@
+package Studys.src;
+
 import java.util.Scanner;
 
 public class EntradaDeDados {
