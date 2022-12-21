@@ -19,15 +19,16 @@ public class EntradaDeDados {
 		System.out.println("IMC de " + nome + ": " + imc);
 		
 		if (imc < 18.5) {
-			System.out.println("Abaixo do peso ideal");
+			System.out.println("Abaixo do peso ideal!");
 		} else if(imc < 25) {
-			 System.out.print("Peso ideal!");
+			 System.out.println("Peso ideal!");
 		} else if(imc < 30){
-			System.out.print("Acima do peso!");
+			System.out.println("Acima do peso!");
 		} else if(imc < 40) {
-			System.out.print("Cuidade! Obesidade 1 ou 2!");
+			System.out.println("Cuidado! Obesidade 1 ou 2!");
 		} else {
-			System.out.print("Obesidade 3!");
+			System.out.println("Obesidade 3!");
+			System.out.println("Muito cuidado com o seu peso!");
 		}
 	}
 
