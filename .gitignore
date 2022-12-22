@@ -38,3 +38,5 @@ hs_err_pid*
 .idea/Java_Studys_Content.iml
 .idea/inspectionProfiles/Project_Default.xml
 .idea/inspectionProfiles/profiles_settings.xml
+Java_projects/.settings/org.eclipse.jdt.core.prefs
+Java_projects/.settings/org.eclipse.core.resources.prefs
