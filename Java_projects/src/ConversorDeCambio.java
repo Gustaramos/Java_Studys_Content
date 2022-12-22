@@ -17,10 +17,14 @@ import java.util.Scanner;
 				float conversion = amountReal / quoteDollar - taxes;
 				System.out.printf("US$" + "%.2f" , conversion);
 				System.out.println();
+				
 				//Informing the user how much he`s paying in tax on the final transaction
 				System.out.print("Você está pagando um total de R$");
 				System.out.printf("%.0f" , taxes);
 				System.out.print(" em taxas nesta conversão!");
+				
+				
+				
 			}
 						
 		}
