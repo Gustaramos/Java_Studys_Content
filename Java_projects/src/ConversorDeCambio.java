@@ -14,7 +14,7 @@ import java.util.Scanner;
 				float taxes = amountReal * 1.10f / 100;
 				
 				//Variable returning the total of conversion with taxes on the final price
-				float conversion = amountReal / quoteDollar - taxes;
+				float conversion = (amountReal / quoteDollar) - taxes;
 				System.out.printf("US$" + "%.2f" , conversion);
 				System.out.println();
 				
@@ -23,7 +23,7 @@ import java.util.Scanner;
 				System.out.printf("%.0f" , taxes);
 				System.out.print(" em taxas nesta conversão!");
 				
-				
+				//Create conditions to convert exchange for another's coins!
 				
 			}
 						
