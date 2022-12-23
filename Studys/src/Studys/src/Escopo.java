@@ -1,4 +1,4 @@
-package Studys.src;
+package my_library;
 import java.util.Scanner;
 
 public class Escopo {
