@@ -1,4 +1,4 @@
-package my_library;
+package Studys.src;
 import java.util.Scanner;
 
 public class ClassificaProduto {
@@ -14,7 +14,7 @@ public class ClassificaProduto {
 				if (codigoProduto != 0) {
 						String corredor = (codigoProduto % 2 == 0) ? "\"Direita\"" : "\"Esquerda\"";	
 		
-						for (int i = 8; i >= 1; i--) {
+						for (int i = 20; i >= 1; i--) {
 							  if(codigoProduto % i == 0) {
 								  System.out.println("O produto de codigo: " + codigoProduto +
 												" ficara no corredor da " + corredor + " e na gaveta " + i);
