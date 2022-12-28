@@ -4,6 +4,7 @@ public class carroPrincipal {
 
 	public static void main(String[] args) {
 		//Declaramos a variável
+		
 		Carro meuCarro = new Carro();//Instanciamos a variável com um objeto do tipo Carro. 
 		meuCarro.fabricante = "Palio".toUpperCase();
 		meuCarro.modelo = "Siena".toUpperCase();
@@ -15,6 +16,8 @@ public class carroPrincipal {
 		seuCarro.modelo = "RX - 7 Spirit R".toUpperCase();
 		seuCarro.cor = "Branco".toUpperCase();
 		seuCarro.anoDeFabricacao = 2002;
+		
+		
 		
 		
 		System.out.println("Detalhes do veículo 1: ");
