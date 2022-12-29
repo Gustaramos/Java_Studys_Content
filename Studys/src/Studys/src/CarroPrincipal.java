@@ -1,6 +1,6 @@
 package Studys.src;
 
-public class carroPrincipal {
+public class CarroPrincipal {
 
 	public static void main(String[] args) {
 		//Declaramos a variável
