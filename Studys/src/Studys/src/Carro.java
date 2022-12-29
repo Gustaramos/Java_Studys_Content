@@ -8,5 +8,11 @@ public class Carro {
 		int anoDeFabricacao;
 		
 		CarroProprietario dono;
+		
+		void ligar() {
+			System.out.println("Ligando o seu caddo: " + modelo);
+	
+		}
+		
 	}
 
