@@ -10,7 +10,12 @@ public class Carro {
 		CarroProprietario dono;
 		
 		void ligar() {
-			System.out.println("Ligando o seu caddo: " + modelo);
+			if (modelo != null) {
+				System.out.println("Ligando o seu caddo: " + modelo); 
+			} else {
+				System.out.println("Não conseguimos encontraro modelo do seu carro no momento!");
+			}
+			
 	
 		}
 		
