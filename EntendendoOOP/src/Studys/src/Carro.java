@@ -15,9 +15,14 @@ public class Carro {
 			} else {
 				System.out.println("Não conseguimos encontraro modelo do seu carro no momento!");
 			}
-			
-	
 		}
+		void mudarModelo(String modelo) {
+			if(modelo != null) {
+				this.modelo = modelo;
+			}
+		}
+	
+		
 		
 	}
 
