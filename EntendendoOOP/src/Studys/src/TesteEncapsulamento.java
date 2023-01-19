@@ -9,7 +9,7 @@ public class TesteEncapsulamento {
 		System.out.println("A temperatura foi alterada para " + ar.obterTemperatura() + "°");
 		
 		ar.trocarTemperatura(17);
-		System.out.println("A temperatura foi alterada para " + ar.obterTemperatura()+ "°");
+		System.out.println("A temperatura foi alterada para " + ar.obterTemperatura() + "°");
 	}
 
 }
