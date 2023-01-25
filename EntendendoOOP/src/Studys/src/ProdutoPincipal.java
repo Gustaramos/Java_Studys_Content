@@ -6,6 +6,7 @@ public class ProdutoPincipal {
 		double preco = 140;
 		
 		//Produto p = new Produto();
+		
 		//p.definirPreco(preco);
 		
 		
